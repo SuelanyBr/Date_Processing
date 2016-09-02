@@ -6,8 +6,10 @@ from os import path
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 # Obtem o camilho do diretorio que possui o arquivo procurado
 filepath = path.dirname(__file__)
+
 
 # referencia conteudo dos arquivos
 text1 = open(path.join(filepath, 'Temer.txt')).read()
